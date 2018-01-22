@@ -7,9 +7,7 @@ def line(katz_deli)
     string = ""
     size = katz_deli.size 
     loop do
-      counter = 0 
-      string = ""
-      size = kat
+      
   end
 end
 
