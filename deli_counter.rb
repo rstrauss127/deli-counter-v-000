@@ -6,9 +6,10 @@ def line(katz_deli)
     counter = 0 
     string = ""
     size = katz_deli.size 
-    loop do 
-      string
-    
+    loop do
+      counter = 0 
+      string = ""
+      size = kat
   end
 end
 
