@@ -12,7 +12,10 @@ def line(katz_deli)
       string << "#{katz_deli[counter]} "
       counter +=1 
       if counter == size
-        
+        break
+      end
+    end
+    return string
   end
 end
 
