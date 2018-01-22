@@ -9,7 +9,7 @@ def line(katz_deli)
     loop do
       string << "#{counter+1}"
       string << ". "
-      string << "#{katz_deli[counter]} "
+      string << "#{katz_deli[counter]}"
       counter +=1 
       if counter == size
         break
