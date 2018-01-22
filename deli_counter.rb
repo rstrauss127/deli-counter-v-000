@@ -7,7 +7,12 @@ def line(katz_deli)
     string = ""
     size = katz_deli.size 
     loop do
-      
+      string << "#{counter+1}"
+      string << ". "
+      string << "#{katz_deli[counter]} "
+      counter +=1 
+      if counter == size
+        
   end
 end
 
