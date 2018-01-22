@@ -15,7 +15,7 @@ def line(katz_deli)
         break
       end
     end
-    return string
+    puts string
   end
 end
 
