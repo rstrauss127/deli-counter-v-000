@@ -24,7 +24,7 @@ end
 def take_a_number(katz_deli, new_customer)
   katz_deli << new_customer
   size == katz_deli.size
-  puts "Welcome #{new_customer}. You are number #{size+1}" in line.
+  puts "Welcome #{new_customer}. You are number #{size} in line."
 end
 
 #3. Build the `now_serving` method which should call out (i.e. `puts`) the next person in line and then remove them from the front. If there is nobody in line, it should call out (`puts`) that `"There is nobody waiting to be served!"`.
