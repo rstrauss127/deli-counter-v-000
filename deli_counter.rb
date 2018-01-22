@@ -4,10 +4,10 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     counter = 0 
-    string = "The line is currently: "
+    string = "The line is currently:"
     size = katz_deli.size 
     loop do
-      string << "#{counter+1}"
+      string << " #{counter+1}"
       string << ". "
       string << "#{katz_deli[counter]}"
       counter +=1 
